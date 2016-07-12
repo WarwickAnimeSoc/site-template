@@ -16,8 +16,9 @@ nav .button-collapse i {
 
 nav .brand-logo { 
     font-size: 1.5rem;
-    /* Add padding to the left of the main logo text*/
+    /* Add padding to the left  and right of the main logo text*/
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 @media only screen and (min-width: 601px){
