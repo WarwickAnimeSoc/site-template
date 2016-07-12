@@ -1,0 +1,3 @@
+# Ignore some setup and update shell scripts #
+##############################################
+*.sh
