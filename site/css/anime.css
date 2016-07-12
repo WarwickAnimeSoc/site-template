@@ -1,0 +1,31 @@
+/*Overrides to make the navbar smaller*/
+nav {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav .button-collapse i {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav .brand-logo { 
+    font-size: 1.5rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+/*Overrides the parallax container so less of the image is seen
+.parallax-container {
+      height: 60px;
+}
+*/
