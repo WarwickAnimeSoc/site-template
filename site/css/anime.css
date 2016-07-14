@@ -27,8 +27,8 @@ nav .brand-logo {
         line-height: 40px;
     }
 }
-/*Overrides the parallax container so less of the image is seen
-.parallax-container {
-      height: 60px;
+/*Overrides class card small to remove content cutoff while keeping fixed height*/
+.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+  max-height: 100%;
+  overflow: hidden;
 }
-*/

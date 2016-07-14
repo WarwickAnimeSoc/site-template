@@ -5,6 +5,4 @@ function link_starto () {
 	$(".button-collapse").sideNav({
 		closeOnClick: true
 	});
-	/* Initialises parallax effect
-	$('.parallax').parallax();*/
 }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+		<!--Site specific anime.css-->
+		<link type="text/css" rel="stylesheet" href="../css/anime.css">
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+
+	<body>
+		<header>
+			<div class="navbar-fixed">
+				<nav>
+					<div class="nav-wrapper indigo darken-4">
+						<a href="#" data-activates="mobile-menu" class="button-collapse">
+							<i class="material-icons">menu</i>
+						</a>
+						<a href="../" class="brand-logo hide-on-med-and-up">
+							<img src="../images/smol_logo.gif">
+						</a>
+						<a href="../" class="brand-logo hide-on-small-only">
+							Warwick Anime and Manga Society
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#">Forums</a></li>
+							<li><a href="viewings.html">Viewings</a></li>
+							<li><a href="library.html">Library</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="admin.html">Admin</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-menu">
+							<li><a href="#">Forums</a></li>
+							<li><a href="viewings.html">Viewings</a></li>
+							<li><a href="library.html">Library</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="admin.html">Admin</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+
+				<!--Everything goes in here-->
+
+				<div class="card-panel">
+					<h4 class="header center-align">Viewing schedule</h4>
+					<p class="caption">
+						We keep a schedule of all anime shown at society events, use the links below to see what we've watched recently and in the past. Or use the new search to find any anime we've watched and to see whats on <a href="about.html#cooldown">cooldown</a>.
+					</p>
+					<!--use select for date range-->
+					<!--use search bar for text search-->
+				</div>
+
+				<!--schedule cards-->
+				<div class="row">
+					<!--row 1/first 3-->
+					<div class="col s12 m6">
+						<div class="card small">
+							<div class="card-content activator">
+								<span class="card-title">Weekly viewing</span>
+								<div class="ul browser-default">
+									<li>Cowboy Bebop</li>
+									<li>Hyouka</li>
+									<li>Barakamon</li>
+									<li>K-On</li>
+									<li>Sword Art Online</li>
+								</div>
+							</div>
+							<div class="card-reveal">
+      					<span class="card-title grey-text text-darken-4">
+      						Card Title
+      						<i class="material-icons right">close</i>
+      					</span>
+      					<p>Here is some more information about this product that is only revealed once clicked on.</p>
+    					</div>
+							<div class="card-action">
+								<a href="#" class="blue-text">Go to event</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="card small">
+							<!-- Card Content -->
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="card small">
+							<!-- Card Content -->
+						</div>
+					</div>
+					<!--row 2/second 3-->
+					<div class="col s12 m6">
+						<div class="card small">
+							<!-- Card Content -->
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="card small">
+							<!-- Card Content -->
+						</div>
+					</div>
+					<div class="col s12 m6">
+						<div class="card small">
+							<!-- Card Content -->
+						</div>
+					</div>
+				</div>
+
+				<!--page numbers-->
+				<ul class="pagination center-align">
+					<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+					<li class="active indigo"><a href="#!">1</a></li>
+					<li class="waves-effect"><a href="#!">2</a></li>
+					<li class="waves-effect"><a href="#!">3</a></li>
+					<li class="waves-effect"><a href="#!">4</a></li>
+					<li class="waves-effect"><a href="#!">5</a></li>
+					<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+				</ul>
+
+			</div>
+		</main>
+
+		<footer class="page-footer indigo darken-4">
+			<div class="footer-copyright indigo darken-3">
+				<div class="container">
+					&copy; Warwick Anime and Manga Society 2016
+				</div>
+			</div>
+		</footer>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="../js/materialize.min.js"></script>
+		<script type="text/javascript" src="../js/anime.js"></script>
+	</body>
+</html>
