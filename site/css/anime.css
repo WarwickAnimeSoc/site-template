@@ -1,4 +1,10 @@
 /*Overrides to make the navbar smaller*/
+.navbar-fixed {
+  position: relative;
+  height: 40px;
+  z-index: 998;
+}
+
 nav {
     height: 40px;
     line-height: 40px;
@@ -26,9 +32,4 @@ nav .brand-logo {
         height: 40px;
         line-height: 40px;
     }
-}
-/*Overrides class card small to remove content cutoff while keeping fixed height*/
-.card.small .card-content, .card.medium .card-content, .card.large .card-content {
-  max-height: 100%;
-  overflow: hidden;
 }
