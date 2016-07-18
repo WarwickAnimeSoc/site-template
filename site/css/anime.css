@@ -1,4 +1,4 @@
-/*Overrides to make the navbar smaller*/
+/* Overrides to make the navbar smaller */
 .navbar-fixed {
   position: relative;
   height: 40px;
@@ -22,7 +22,7 @@ nav .button-collapse i {
 
 nav .brand-logo { 
     font-size: 1.5rem;
-    /* Add padding to the left  and right of the main logo text*/
+    /* Add padding to the left  and right of the main logo text */
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -34,13 +34,13 @@ nav .brand-logo {
     }
 }
 
-
-.card .card-content.anime-label {
+/* Remove padding on labels in the libray view */
+.card .card-content.library-label {
   padding: 0px;
-  border-radius: 0 0 2px 2px;
 }
 
-img.anime-img {
-  max-width: 100%;
-  max-height: 270px;
+/* Allow for the library images to resize responsively while leaving space for the label */
+img.library-img {
+  width: 100%;
+  height: 83%;
 }
