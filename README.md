@@ -1,4 +1,7 @@
 # site-template
+
+## This template is for the old [aniMango](https://github.com/WarwickAnimeSoc/aniMango) site, this has now been replaced by [TengenToppaAnimango](https://github.com/WarwickAnimeSoc/TengenToppaAnimango) which uses a different CSS framework, therefore this design is no logner current.
+
 Website template for the new animesoc.co.uk
 
 Uses MaterializeCSS material design framework
